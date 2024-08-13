@@ -29,3 +29,24 @@ def myfunc2():
 myfunc2()
 
 print("Python is " + b)
+
+#Also, use the global keyword if you want to change a global variable inside a function.
+
+c = "awesome"
+
+def myfunc3():
+  global c
+  c = "fantastic"
+
+# myfunc3()
+
+print(" f3 : Python is " + c)
+
+#complex data type
+d = complex(1j)
+
+#display x:
+print(d)
+
+#display the data type of x:
+print(type(d)) 
