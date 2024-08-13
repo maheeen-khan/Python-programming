@@ -12,10 +12,20 @@ print(z)
 
 a = "awesome"
 
-def myfunc():
+def myfunc1():
   a = "fantastic"
   print("Python is " + a)
 
-myfunc()
+myfunc1()
 
 print("Python is " + a)
+
+#To create a global variable inside a function, you can use the global keyword.
+
+def myfunc2():
+  global b
+  b = "fantastic"
+
+myfunc2()
+
+print("Python is " + b)
