@@ -45,8 +45,11 @@ print(" f3 : Python is " + c)
 #complex data type
 d = complex(1j)
 
-#display x:
 print(d)
 
-#display the data type of x:
 print(type(d)) 
+
+#random numbers
+import random
+
+print(random.randrange(1, 10))
