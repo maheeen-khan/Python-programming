@@ -78,3 +78,17 @@ def display(**kwargs):
         print(i)
 
 display(emp="Kelly", salary=9000)
+
+#...
+def fun(*data):
+    for i in data:
+      print(i)
+      print("Done!")
+fun(25, 75, 55)
+
+#...Display None 
+
+def display1():
+    c= 0
+    c = 10+20
+print(display1())
