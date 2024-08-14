@@ -92,3 +92,23 @@ def display1():
     c= 0
     c = 10+20
 print(display1())
+
+#Python Exception Handling
+
+m = 5
+n = "hello"
+try:
+    o = m + n
+except TypeError:
+    print("Error: cannot add an int and a str")
+
+#......
+try:
+    k = 5//0
+    print(k)
+ 
+except ZeroDivisionError:
+    print("Can't divide by zero")
+ 
+finally:
+    print('This is always executed')
